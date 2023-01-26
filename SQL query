@@ -1,0 +1,49 @@
+Show databases;
++--------------------+
+| Database           |
++--------------------+
+| examplecls         |
+| films              |
+| information_schema |
+| music              |
+| mysql              |
+| performance_schema |
+| pythcon            |
+| randome            |
+| snake_game_sesh    |
+| sql_hr             |
+| sql_inventory      |
+| sql_invoicing      |
+| sql_store          |
+| sys                |
+| term2practicals    |
++--------------------+
+15 rows in set (0.15 sec)
+
+mysql> Use snake_game_sesh;
+Database changed
+mysql> show tables;
++---------------------------+
+| Tables_in_snake_game_sesh |
++---------------------------+
+| highscore                 |
++---------------------------+
+1 row in set (0.03 sec)
+mysql> select * from highscore;
++----------------+--------+
+| name           | points |
++----------------+--------+
+| Seshadrinathan |     16 |
+| Dharaneesh     |      5 |
+| Sanjaykanth    |      8 |
+| seshadrinathan |      7 |
+| Seshadrinathan |      0 |
+| sanji          |      6 |
+| adhithyaa      |      2 |
+| aati nanban    |     16 |
+| aati nanban    |     16 |
+| aati nanban    |     16 |
+| aati nanban    |     16 |
+| aati nanban    |     26 |
++----------------+--------+
+12 rows in set (0.05 sec)
